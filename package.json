@@ -7,7 +7,8 @@
     "node": "10.16.3"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "author": "Niravpatel129 <niravpatelp129@gmail.com>",
   "license": "ISC",
