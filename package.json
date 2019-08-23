@@ -7,8 +7,7 @@
     "node": "10.16.3"
   },
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && yarn && yarn run build"
+    "start": "node server.js"
   },
   "author": "Niravpatel129 <niravpatelp129@gmail.com>",
   "license": "ISC",
