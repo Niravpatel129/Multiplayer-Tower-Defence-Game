@@ -10,10 +10,6 @@ app.get("/test", function(req, res) {
   return res.send("pong");
 });
 
-app.get("/", function(req, res) {
-  res.send("hello world");
-});
-
 app.listen(process.env.PORT || port, function() {
   console.log("server running on port", port);
 });
