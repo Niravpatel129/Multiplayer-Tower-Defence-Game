@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import axios from "axios";
-
 import P5Canvas from "./components/P5Canvas";
 
 function App() {
