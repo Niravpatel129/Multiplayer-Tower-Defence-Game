@@ -17,9 +17,8 @@ app.use(express.static(path.join(__dirname, "build")));
 
 io.on("connection", function(socket) {
   console.log("user connected :D :D :D :D");
-  socket.emit("news", { hello: "world" });
-  socket.on("my other event", function(data) {
-    console.log(data);
+  socket.on("test2", () => {
+    socket.emit("test");
   });
 });
 
