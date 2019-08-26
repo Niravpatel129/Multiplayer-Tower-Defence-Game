@@ -11,7 +11,7 @@ class P5Canvas extends React.Component {
   }
   componentDidMount() {
     new p5(sketch, "container"); // create a new p5 instance
-    const socket = io("http://127.0.0.1:4001");
+    const socket = io("http://localhost:4001");
     console.log(socket);
   }
 
