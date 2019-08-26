@@ -8,7 +8,7 @@ const socketIo = require("socket.io");
 const server = http.createServer(app);
 const io = socketIo(server); // < Interesting!
 const port = process.env.PORT || 5000;
-const serverPort = process.env.PORT || 4001;
+const serverPort = 4001;
 server.listen(serverPort, () =>
   console.log("socketio listening on server:", serverPort)
 );
